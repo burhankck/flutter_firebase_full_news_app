@@ -1,7 +1,5 @@
 
 
-
-
 enum ImageSizes {
   high(256);
 

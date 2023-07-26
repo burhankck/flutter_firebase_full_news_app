@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_firebase_full_news_app/future/home/home_view.dart';
+import 'package:flutter_firebase_full_news_app/future/splash/splash_view.dart';
+import 'package:flutter_firebase_full_news_app/product/constants/string_constants.dart';
 import 'package:flutter_firebase_full_news_app/product/initialize/application_start.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -15,8 +16,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Material App',
-      home: HomeView(),
+      title: StringConstants.appName,
+      home:   SplashView(),
     );
   }
 }

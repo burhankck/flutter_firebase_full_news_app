@@ -44,7 +44,7 @@ dependencies:
   firebase_core: ^2.15.0
   cloud_firestore: ^4.8.3
   #Core
-  
+  animated_text_kit: ^4.2.2
   
   riverpod: ^2.3.6
   flutter_riverpod: ^2.3.6

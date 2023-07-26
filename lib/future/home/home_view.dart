@@ -38,6 +38,7 @@ class Home_ListView extends StatelessWidget {
         return News().fromFirebase(snapshot);
       },
       toFirestore: (value, options) {
+        // ignore: unnecessary_null_comparison
         if (value == null) {
           throw FirebaseCustomException('$value not null');
         }
